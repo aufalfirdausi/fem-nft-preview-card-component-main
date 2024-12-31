@@ -1,2 +1,93 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: rgb(5, 4, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: rgb(32, 34, 84);
+    width: 350px;
+    height: 630px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+.card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.title {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.description {
+    color: grey;
+    font-size: larger;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.section .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: aqua;
+}
+
+.section .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: grey;
+    font-size: large;
+}
+
+.hori {
+    color: grey;
+    width: 330px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+.creation img {
+    width: 50px;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.creation {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+.creation p {
+    color: grey;
+    font-size: large;
+}
+
+.creation span {
+    color: white;
+}
